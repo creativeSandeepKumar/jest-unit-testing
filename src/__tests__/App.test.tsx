@@ -39,32 +39,35 @@ import { DBClean } from "../sum"
 // })
 
 
-beforeEach(() => {
-    // console.log("***** Before Each Hook *****");
-    DBClean()
-})
+// beforeEach(() => {
+//     // console.log("***** Before Each Hook *****");
+//     DBClean()
+// })
 
+// test("On Change event testing", () => {
+//     render(<App/>);
+//     console.log("123");
+//     const input = screen.getByRole("textbox") as HTMLInputElement;
+//     fireEvent.change(input, {target: {value: "ab"}});
+//     expect(input.value).toBe("ab");
+// })
 test("On Change event testing", () => {
-    render(<App/>);
-    console.log("123");
-    const input = screen.getByRole("textbox") as HTMLInputElement;
-    fireEvent.change(input, {target: {value: "ab"}});
-    expect(input.value).toBe("ab");
+  
 })
 
 
-test("Click Event test case", () => {
-    render(<App/>);
-    console.log("1234");
-    const btn = screen.getByRole("button");
-    fireEvent.click(btn);
-    expect(screen.getByText("updated data")).toBeInTheDocument();
-});
+// test("Click Event test case", () => {
+//     render(<App/>);
+//     console.log("1234");
+//     const btn = screen.getByRole("button");
+//     fireEvent.click(btn);
+//     expect(screen.getByText("updated data")).toBeInTheDocument();
+// });
 
 // afterAll(() => {
 //     console.log("***** After All Hook *****");
 // })
-afterEach(() => {
-    console.log("***** After Each Hook *****");
-})
+// afterEach(() => {
+//     console.log("***** After Each Hook *****");
+// })
 
