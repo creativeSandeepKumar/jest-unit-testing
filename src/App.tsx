@@ -9,6 +9,18 @@ import Lac20 from './components/Lac20';
 import Lac21 from './components/Lac21';
 import Lac22 from './components/Lac22';
 import Lac23 from './components/Lac23';
+import Lac24 from './components/Lac24';
+import Lac25 from './components/Lac25';
+import Lac26 from './components/classComponents/Lac26';
+import Lac27 from './components/Lac27';
+import Lac28 from './components/Lac28';
+import Lac29 from './components/Lac29';
+import Lac30 from './components/Lac30';
+import Lac32 from './components/Lac32';
+import Lac33 from './components/Lac33';
+import Lac34 from './components/Lac34';
+import Lac35 from './components/Lac35';
+import Lac46 from './components/Lac46';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,7 +46,19 @@ function App() {
       {/* <Lac20/> */}
       {/* <Lac21/> */}
       {/* <Lac22/> */}
-      <Lac23/>
+      {/* <Lac23/> */}
+      {/* <Lac24/> */}
+      {/* <Lac25/> */}
+      {/* <Lac26/> */}
+      {/* <Lac27/> */}
+      {/* <Lac28/> */}
+      {/* <Lac29/> */}
+      {/* <Lac30/> */}
+      {/* <Lac32/> */}
+      {/* <Lac33/> */}
+      {/* <Lac34/> */}
+      {/* <Lac35/> */}
+      <Lac46/>
     </div>
   )
 }
